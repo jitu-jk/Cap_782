@@ -1,0 +1,24 @@
+
+  .card {
+    background-color: aquamarine;
+    box-shadow: 0 4px 8px 0 rgba(3, 3, 3, 0.358);
+    transition: 0.3s;
+    
+    
+  }
+  
+ 
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(205, 20, 20, 0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+    border: 2px solid #000000;
+    background-color: blueviolet;
+  }
+  
+  .flex-container{
+    display: flex;
+    
+}
