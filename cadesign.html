@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid_Design</title>
+<style>
+   .grid-container {
+        display: grid;
+         
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 10px;
+    }
+    .item
+     {
+        background-color: lightsalmon;
+        border: 1px solid black;
+        padding: 20px;
+        text-align: center;
+     }
+     
+        .item:nth-child(1) { background-color: #ff6347; }
+        .item:nth-child(2) { background-color: #6b2316; }
+        .item:nth-child(3) { background-color: #1a347b; }
+        .item:nth-child(4) { background-color: #6b1639;  grid-row-end: span 2; }
+        .item:nth-child(5) { background-color: #1cae82; }
+        .item:nth-child(6) { background-color: #a4d724; grid-row-end: span 2; }
+        .item:nth-child(7) { background-color: #23cd4e; }
+        .item:nth-child(8) { background-color: #eb048b; }
+        .item:nth-child(9) { background-color: #ebe304; }
+        .item:nth-child(10) { background-color: #6b4b5e; }
+
+
+
+</style>
+
+
+</head>
+<body>
+    <h1>Grid Layout</h1>
+    <div class="grid-container">
+  
+  <div class="item">One</div>
+  <div class="item">two</div>
+  <div class="item">three</div>
+  <div class="item">four</div>
+  <div class="item">five</div>
+  <div class="item">six</div>
+  <div class="item">seven</div>
+<!--
+  <div class="item">eight</div>
+<div class="item">nine</div>
+<div class="item">ten</div>
+-->
+</div>
+
+</body>
+</html>
