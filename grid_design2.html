@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB SITE Layout</title>
+<style>
+    body{
+        background-color: rgb(244, 250, 250);
+        text-align: center;
+        
+    }
+
+    nav {
+            background-color: #eee;
+            padding: 10px;
+            text-align: center;
+        
+        }
+
+        nav a {
+            margin: 0 10px;
+            text-decoration:none;
+            color: #333;
+            font-family:Arial, Helvetica, sans-serif;
+            font-weight:bolder;
+        }
+
+
+   .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 10px;
+
+    
+    }
+    .item {
+        background-color:#333;
+        border: 1px solid black;
+        padding: 20px;
+        text-align: center;
+        font-size: larger;
+    }
+    .item p{
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bolder;
+    }
+    .item h2{
+        color: #eee;
+    }
+
+    
+    .item:nth-child(1) {
+        background-color: #5b5250;
+        grid-column: span 3;
+    }
+
+    
+    .item:nth-child(2) { background-color: white;  grid-row-end:span 7; }
+    
+    .item:nth-child(3) { background-color: white; }
+    .item:nth-child(4) { background-color: white; grid-row-end:span 7; }
+    .item:nth-child(5) { background-color: white; grid-row-end:span 5}
+    .item:nth-child(6) { background-color: white; }
+    .item:nth-child(7) { background-color: white;grid-column:span 3; }
+
+</style>
+</head>
+<body>
+    <h1>GRID DESIGN FOR </h1>
+    <div class="grid-container">
+        <div class="item"><h2>LOVELY PROFESSIONAL UNIVERSITY</h2>
+          
+          <nav>  
+            <a href="#">Program</a>
+            <a href="#">Achivement</a>
+            <a href="#">Placement</a>
+        </nav>
+        </div>
+
+        <div class="item"><h1>STUDENT ACHIEVEMENT</h1>
+            <p>Gold medal in cricket</p>
+            <p>Bronze in football </p>
+            <p>Silver in basketball</p>
+        </div>
+        <div class="item">SCHOOL OF COMPUTER APPLICATION</div>
+        <div class="item"><h1>FACULTY OFFERED</h1>
+            <p>Sports</p>
+            <p>projects</p>
+            <p>Seminar</p>
+        
+        </div>
+        <div class="item">Daily News</div>
+        <div class="item">Placement Notification</div>
+        <div class="item">PLACEMENT POLICY</div>
+    </div>
+</body>
+</html>
