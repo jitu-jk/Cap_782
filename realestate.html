@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #7c91d1;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .property-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .property-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 10px;
+            padding: 10px;
+            width: 300px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .search-container {
+            text-align: center;
+            margin: 20px;
+        }
+
+        input[type="text"] {
+            padding: 8px;
+            width: 300px;
+        }
+
+        button {
+            padding: 8px 16px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Real Estate Listings</h1>
+    </header>
+
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search by location">
+        <button onclick="searchProperties()">Search</button>
+    </div>
+
+    <div class="property-container">
+        
+        <div class="property-card">
+            <img src="https://images.unsplash.com/photo-1558036117-15d82a90b9b1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHJlYWwlMjBlc3RhdGV8ZW58MHx8MHx8fDA%3D" alt="Property 1">
+            <h2>Property 1</h2>
+            <p>Location: City A</p>
+            <p>Price: $300,000</p>
+            <button onclick="viewDetails('Property 1')">View Details</button>
+        </div>
+
+        <div class="property-card">
+            <img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHJlYWwlMjBlc3RhdGV8ZW58MHx8MHx8fDA%3D" alt="Property 2">
+            <h2>Property 2</h2>
+            <p>Location: City B</p>
+            <p>Price: $400,000</p>
+            <button onclick="viewDetails('Property 2')">View Details</button>
+        </div>
+        <div class="property-card">
+            <img src="https://images.unsplash.com/photo-1592595896551-12b371d546d5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cmVhbCUyMGVzdGF0ZXxlbnwwfHwwfHx8MA%3D%3D" alt="Property 3">
+            <h2>Property 3</h2>
+            <p>Location: City C</p>
+            <p>Price: $500,000</p>
+            <button onclick="viewDetails('Property 3')">View Details</button>
+        </div>
+       
+        <div class="property-card">
+            <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fHJlYWwlMjBlc3RhdGV8ZW58MHx8MHx8fDA%3D" alt="Property 4">
+            <h2>Property 4</h2>
+            <p>Location: City D</p>
+            <p>Price: $600,000</p>
+            <button onclick="viewDetails('Property 4')">View Details</button>
+        </div>
+
+    </div>
+
+    <script>
+        function searchProperties() {
+
+
+
+           
+            alert('Implement search functionality here');
+        }
+                     
+        function viewDetails(propertyName) {
+                   
+            
+            alert('Implement property details view for ' + propertyName);
+        }
+    </script>
+</body>
+
+</html>
