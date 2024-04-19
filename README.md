@@ -7,3 +7,5 @@
 <a href="https://jitu-jk.github.io/Cap_782/card.html">👉Click me👈</a><br>
 <a href="https://jitu-jk.github.io/Cap_782/first_design.html">👉Click me👈</a><br>
 <a href="https://jitu-jk.github.io/Cap_782/grid_design2.html">👉Click me👈</a><br>
+<a href="https://jitu-jk.github.io/Cap_782/grid.html">👉Click me👈</a><br>
+<a href="https://jitu-jk.github.io/Cap_782/grid_design2.html">👉Click me👈</a><br>
