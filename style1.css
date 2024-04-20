@@ -1,0 +1,70 @@
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+    
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    section {
+        padding: 30px;
+    }
+
+    /* Grid layout */
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+}
